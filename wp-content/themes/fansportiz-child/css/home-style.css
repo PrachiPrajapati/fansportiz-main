@@ -1,0 +1,335 @@
+figure                          { margin:0;  }
+/*********----------------------Banner  Section Css Start -----------------------*********/
+.banner-section                 { background-color: rgba(4,35,101,0.03); background-image: url(https://www.fansportiz.com/wp-content/uploads/2023/05/home-banner.png); background-size: cover; background-position: center center; background-attachment: scroll; background-repeat: no-repeat; position: relative;}
+.banner-section::before     { content:""; position: absolute; left: 0; top: 0; width: 100%; height: 100%;opacity: 0.60; background-image: linear-gradient(180deg, rgba(230, 230, 231, 0) 85.65%, #e6e6e7 100%); }
+.banner-section h1              { font-weight: 400; }
+.banner-section h1 strong        { font-weight: 400 !important;  color: #FD0000 !important;}
+.banner-detail    { height:100vh; min-height: 1003px; padding-top:140px !important; position: relative; z-index: 5;  }
+.banner-section .banner-content { text-align: center; padding:15px 0; max-width: 69%; margin:0 auto;}
+.banner-images-box              { padding:0 206px 0 190px; }
+.banner-images-box              { display: flex; justify-content: center; align-items: center; }
+.banner-images-box  > figure:last-child { margin-left: -15% !important;  }
+.scroll-down                    { margin-top:35px !important; margin-bottom: 15px !important; text-decoration: none; display: inline-block; }
+.scroll-down span               { margin-bottom: 5px; display: block; font-weight: 600;  font-size: 20px; line-height: 30px; color:var(--primary-color); letter-spacing: 0.2em; text-transform: uppercase;  }
+.scroll-down i                  { position: relative; font-size: 24px; color:var(--secondary-color);  animation: scrolldown 0.5s linear infinite;  }
+.scroll-down:hover span         { color:var(--secondary-color); }
+.scroll-down:hover , .scroll-down:focus { background: none !important; outline: none ; border:0; }
+.banner-content .outline-btn a  { padding-block:18.5px ; }
+/*********----------------------Banner  Section Css End -----------------------*********/
+/* Our Offering section start */
+.new-our-offering-section               {  position: relative; }
+.new-our-offering-section:before        { content:""; position: absolute; left: 0; bottom:0; height: 397px; width: 100%; background:url('https://www.fansportiz.com/wp-content/uploads/2023/08/Pattern.webp')no-repeat center center/cover; }
+.title-sec .offer-box                   { padding-inline: 82px; border-left: 1px solid #ACAAAA !important; background: linear-gradient(180deg, #F5F5F5 0%, #F5F5F5 100%); }
+.offer-box                          { background-color: #fff; padding-inline: 32px; border: 1px solid #ACAAAA; border-left: 0;   }
+.offer-box h4                       { margin-top:16px; margin-bottom: 11px; color: #042365; font-family: Inter; font-size: 24px; font-weight: 700; line-height: 36px; /* 150% */ letter-spacing: -0.5px; }
+/* Our Offering section end */
+/* platform section start */
+.platform-exclusivity-section h5        { margin-bottom:16px; color: #042365; font-family: Inter; font-size: 28px; font-style: normal; font-weight: 700; line-height: 44px; letter-spacing: -0.5px; }
+.platform-exclusivity-box               { margin-bottom: 24px; }
+.platform-exclusivity-det               { height:100%; padding:32px; border: 1px solid #B8B8B8; display: flex; align-items: start;  }
+.platform-exclusivity-det img           { margin-right: 24px; }
+.platform-left-ball                     { top: -8%; left: -3%; }
+.platform-right-player                  { right:-2%; bottom:0; }
+.platform-dotpattern-top                { right:0; top:0; }
+.platform-dotpattern-bottom             { left:0; bottom:0; }
+.feature-section.platform-exclusivity-section .platform-exclusivity-det { max-width: 89%; border:0 !important;  border-bottom: 1px solid #B8B8B8 !important; }
+.platform-exclusivity-box:nth-child(even) .platform-exclusivity-det { margin-right: 0; margin-left: auto; }
+/* cta section */
+
+ /* Sports Section Start */
+ .sports-we-serve .title-box h2 { margin-bottom: 48px; }
+ .sport-we-server-det { margin-inline: -12.5px; }
+ .slick-arrow       { padding:0; z-index: 88; background: none !important; top:-25%; width: 21px; height:14px; font-size: 0; border:0; position: absolute; transition: 0.5s all ease; }
+ .slick-arrow:hover { transform: scale(1.1); }
+ .slick-arrow:hover:before { filter:grayscale(0); }
+ .slick-arrow.slick-disabled:hover { transform: scale(1); }
+ .slick-arrow.slick-disabled:before { filter: brightness(0.5) saturate(0%); }
+ .slick-prev        { right:68px;  }
+ .slick-next        { right:15px; }
+ .slick-prev:before ,.slick-next:before{ background-color: transparent !important; content:""; 
+     position: absolute;  width: 100%; height:100%; background: url('../images/arrow-fansportiz.png')no-repeat center center/cover; transition: 0.5s all ease; }
+ .slick-prev:before { left:0; top:0; transform: scaleX(-1); }
+ .slick-next:before { right:0; top:0; }
+ .slick-track       { display: flex; flex-wrap: wrap; }
+ .slick-initialized .slick-slide { padding-top: 32px; padding-inline: 12.5px; float: none; height: inherit !important; }
+ .sports-box        { padding:0 24px 32px ; height: 100%; text-align: center; border-radius: 24px; border: 1px solid #939393; background: #FFF;}
+ .sports-box .img-bx img { width: 40px; }
+ .sports-box .img-bx { margin-top: -62px; margin-bottom: 32px; padding:10px 54px; display: inline-flex; justify-content: center; align-items: center; border-radius: 30px; border: 1px solid #939393; background: #FFF; }
+ .sports-box h5     { margin-bottom: 24px;   font-family: Inter; font-size: 32px; font-style: normal; font-weight: 700; line-height: 48px; letter-spacing: -0.5px; } 
+ .sports-box h5 a   { text-decoration: none; color: #042365 !important; }
+ .sports-box h5 a:hover { text-decoration: underline !important; }
+ .sports-box p      { color: #3D3D3D; text-align: center; font-family: Inter; font-size: 18px; font-style: normal; font-weight: 500; line-height: 28px;  }
+ /* Sports Section End */
+ /* Techstack-section Start */
+ .heading-bx        { padding:37px 30px; position: relative; background-color: #fff;  }
+ .techstack-wrap h4  { position: relative; font-style: italic; z-index: 5; color: #042365; font-family: Inter; font-size: 32px;  font-weight: 700; line-height: 32px; letter-spacing: -0.5px; }
+ .heading-bx span   {  position: absolute; font-style: italic; left:50%; top:50%; transform: translate(-50%,-50%); color: #042365; font-family: Inter; font-size: 67px; font-weight: 700; line-height: 67px; letter-spacing: -1.047px; opacity: 0.06; }
+ .techstack-wrap  { padding-left: 70px; }
+ .techstack-wrap > li { position: relative; list-style-type: none; display: flex; flex-wrap: wrap;  padding-top: 23px; }
+ .techstack-wrap > li:after { content:''; position: absolute; left:-2.08%; bottom:0; transform: skew(-27deg); background-color: #fff; width:55px; height:106px;  }
+ .techstack-wrap > li:first-child { padding-top: 0px; }
+ .techstack-wrap > li:before { content:''; position: absolute; left:-2.08%; top:0; transform: skew(65deg); width: 60%; height:23px; background-color: #7D859F;  }
+ .techstack-wrap > li:nth-child(2):before { width:68%; }
+ .techstack-wrap > li:first-child:before { display: none; }
+ .techstack-wrap li .techlogos {  list-style-type: none; padding-left: 0; display: flex; flex-wrap: wrap; background-color: #fff;  border-radius: 0px 60px 60px 0px; padding-right: 22px; }
+ .techstack-wrap li .techlogos  li { max-height: 106px;  position: relative; padding:22px 30px; display: flex; flex-wrap: wrap; justify-content: center; align-items: center; transform: skew(-25deg);   }
+ .techstack-wrap li .techlogos  li div { transform: skew(25deg); min-width: 80px; display: flex; flex-wrap: wrap; justify-content: center; align-items: center;  }
+ .techstack-wrap li .techlogos li:before { content:''; position: absolute; left:0; top:0; width: 2px; height: 100%; background-color: #D9DDEB;  }
+ /* Techstack-section End */
+ /* Feature Section Start */
+ .feature-section .platform-left-ball { top: -2.5%; left: -1.3%; }
+ .feature-section .platform-right-player { right: 0%; bottom: -1%; }
+ /* Feature Section End */
+@media (min-width:1221px) and (max-width:1440px){
+   
+    /* Sports Section Start */
+    .sports-we-serve .title-box h2 { margin-bottom: 40px; }
+    .sport-we-server-det { margin-inline: -10px; }
+    .slick-arrow       {  top:-31%; width: 21px; height:14px;}
+    .slick-prev        { right:53px;  }
+    .slick-initialized .slick-slide { padding-top: 28px; padding-inline: 10px;  }
+    .sports-box        { padding:0 20px 28px;  border-radius: 20px; }
+    .sports-box .img-bx { margin-top: -48px; margin-bottom: 24px; padding:10px 40px; border-radius: 30px;  }
+    .sports-box .img-bx img { width: 35px; }
+    .sports-box h5     { margin-bottom: 20px;  font-size: 24px;  line-height: 34px; letter-spacing: 0px; } 
+    .sports-box p      { font-size: 16px; line-height: 24px; }
+    .player-pat-right { right: 1%; bottom: 0; width: 120px; }
+    /* Sports Section End */
+    /* Our Offering section start */
+    .new-our-offering-section:before     { height: 300px; }
+    .title-sec .offer-box                { padding-inline: 52px; }
+    .offer-box                           {  padding-inline: 24px;   }
+    .offer-box h4                        { margin-top:12px; margin-bottom: 11px; font-size: 20px;  line-height: 30px;  letter-spacing: 0px; }
+    /* Our Offering section end */
+    /* platform section start */
+    .platform-exclusivity-section h5        { margin-bottom:12px; font-size: 24px; line-height: 40px; letter-spacing: 0px; }
+    .platform-exclusivity-box               { margin-bottom: 20px; }
+    .platform-exclusivity-det               { padding:24px; }
+    .platform-exclusivity-det img           { margin-right: 20px; }
+    .platform-left-ball                     { top: -4%; left: -2%; width: 200px; }
+    .platform-right-player                  { right:-2%; width: 120px; }
+    .platform-dotpattern-top                { width: 160px; }
+    .platform-dotpattern-bottom             { width: 160px; }
+    .feature-section.platform-exclusivity-section .platform-exclusivity-det { max-width: 92%;  }
+    /* platform section End */
+    /* Techstack-section Start */
+    .heading-bx                             { padding:20px 24px; display: flex; align-items: center;    }
+    .techstack-wrap h4                      {  font-size: 22px;  line-height: 30px; letter-spacing: 0px; }
+    .heading-bx span                        {  font-size: 40px; line-height: 40px; letter-spacing: 0px; opacity: 0.06; }
+    .techstack-wrap                         { padding-left: 12%; }
+    .techstack-wrap > li                    {  padding-top: 16px; }
+    .techstack-wrap > li:after              {  left:-2.08%; transform: skew(-27deg); width:55px; height:90px;  }
+    .techstack-wrap > li:before             { left:-2.08%; transform: skew(65deg); width: 60%; height:15px;   }
+    .techstack-wrap > li:nth-child(2):before { width:68%; }
+    .techstack-wrap li .techlogos           { padding-right: 16px; }
+    .techstack-wrap li .techlogos  li img   { max-height: 100%;  }
+    .techstack-wrap li .techlogos  li       { max-height:none; height: 90px;  padding:16px 20px; transform: skew(-25deg);   }
+    .techstack-wrap li .techlogos  li div   { transform: skew(25deg); min-width: 70px;  }
+    .techstack-wrap li .techlogos li:before {  width: 2px;  }
+    /* Techstack-section End */
+    
+}
+@media (min-width:992px) and (max-width:1220px){
+    .banner-section .banner-content             { padding: 12px 0; max-width: 69%; }
+    .banner-detail        { min-height: 766px; padding-top: 112px !important; }
+    .thankyou-content   { padding-top: 112px !important;  }
+    .banner-images-box                          { padding: 0 123px 0 106px; }
+/* **====----------===== Common Page Css start ====---------========* */
+    /* Sports Section Start */
+    .sports-we-serve .title-box h2 { margin-bottom: 34px; }
+    .sport-we-server-det { margin-inline: -10px; }
+    .slick-arrow       { top:-26%; width: 21px; height:14px;}
+    .slick-prev        { right:53px;  }
+    .slick-initialized .slick-slide { padding-top: 22px; padding-inline: 10px;  }
+    .sports-box        { padding:0 16px 24px;  border-radius: 20px; }
+    .sports-box .img-bx { margin-top: -40px; margin-bottom: 20px; padding:10px 30px; border-radius: 30px;  }
+    .sports-box .img-bx img { width: 30px; }
+    .sports-box h5     { margin-bottom: 16px;  font-size: 20px;  line-height: 30px; letter-spacing: 0px; } 
+    .sports-box p      { font-size: 16px; line-height: 24px; }
+    .player-pat-right                           { right: 1%; bottom: 0; width: 80px; }
+    /* Sports Section End */
+    /* Our Offering section start */
+    .new-our-offering-section:before     { height: 300px; }
+    .title-sec .offer-box                { padding-inline: 40px; }
+    .offer-box                           {  padding-inline: 20px;   }
+    .offer-box img                       { max-width: 50px;  }
+    .offer-box h4                        { margin-top:12px; margin-bottom: 11px; font-size: 20px;  line-height: 30px;  letter-spacing: 0px; }
+    /* Our Offering section end */
+    /* platform section start */
+    .platform-exclusivity-section h5        { margin-bottom:12px; font-size: 22px; line-height: 30px; letter-spacing: 0px; }
+    .platform-exclusivity-box               { margin-bottom: 16px; }
+    .platform-exclusivity-det               { padding:20px; }
+    .platform-exclusivity-det img           { margin-right: 16px; width:40px; }
+    .platform-left-ball                     { top: -4%; left: -2%; width: 200px; }
+    .platform-right-player                  { right:-2%; width: 100px; }
+    .platform-dotpattern-top                { width: 140px; }
+    .platform-dotpattern-bottom             { width: 140px; }
+    .feature-section.platform-exclusivity-section .platform-exclusivity-det { max-width: 98%;  }
+    /* platform section End */
+    /* Techstack-section Start */
+    .heading-bx                             { padding:16px 19px; display: flex; align-items: center;    }
+    .techstack-wrap h4                      {  font-size: 22px;  line-height: 30px; letter-spacing: 0px; }
+    .heading-bx span                        {  font-size: 40px; line-height: 40px; letter-spacing: 0px; opacity: 0.06; }
+    .techstack-wrap                         { padding-left: 6%; }
+    .techstack-wrap > li                    {  padding-top: 16px; }
+    .techstack-wrap > li:after              {  left:-2.08%; transform: skew(-27deg); width:40px; height:77px;  }
+    .techstack-wrap > li:before             { left:-2.08%; transform: skew(65deg); width: 60%; height:15px;   }
+    .techstack-wrap > li:nth-child(2):before { width:68%; }
+    .techstack-wrap li .techlogos           { padding-right: 16px; }
+    .techstack-wrap li .techlogos  li img { max-height: 49px; max-width: 60px; }
+    .techstack-wrap li .techlogos  li       { max-height:none; height: 77px; padding: 12px 13px; transform: skew(-25deg);   }
+    .techstack-wrap li .techlogos  li div   { transform: skew(25deg); min-width: 70px;  }
+    .techstack-wrap li .techlogos li:before {  width: 2px;  }
+    /* Techstack-section End */
+    
+}
+@media (min-width:768px) and (max-width:991px){
+    .banner-section .banner-content             { padding: 12px 0; max-width: 88%; }
+    .banner-detail        { min-height: 653px; padding-top: 100px !important; }
+    .banner-images-box                          { padding: 0 88px 0 75px; }
+            /* **====----------===== Common Page Css start ====---------========* */
+.common-banner-section              { padding-top: 160px !important; }
+/* **====----------===== Common Page Css End ====---------========* */
+
+/* Sports Section Start */
+ .sports-we-serve .title-box h2 { margin-bottom: 34px; }
+ .sport-we-server-det { margin-inline: -10px; }
+ .slick-arrow       { top:-26%; width: 21px; height:14px;}
+ .slick-prev        { right:53px;  }
+ .slick-initialized .slick-slide { padding-top: 22px; padding-inline: 10px;  }
+ .sports-box        { padding:0 16px 24px;  border-radius: 20px; }
+ .sports-box .img-bx { margin-top: -40px; margin-bottom: 20px; padding:10px 30px; border-radius: 30px;  }
+ .sports-box .img-bx img { width: 30px; }
+ .sports-box h5     { margin-bottom: 16px;  font-size: 20px;  line-height: 30px; letter-spacing: 0px; } 
+ .sports-box p      { font-size: 16px; line-height: 24px; }
+ .player-pat-right                           { right: 1%; bottom: 0; width: 60px; }
+ /* Sports Section End */
+ /* Our Offering section start */
+ .new-our-offering-section:before     { height: 220px; }
+ .title-sec .offer-box                { padding-inline: 30px; }
+ .offer-box                           { padding-inline: 16px;   }
+ .offer-box img                       { max-width: 40px;  }
+ .offer-box h4                        { margin-top:12px; margin-bottom: 11px; font-size: 18px;  line-height: 24px;  letter-spacing: 0px; }
+ /* Our Offering section end */
+ /* platform section start */
+ .platform-exclusivity-section h5        { margin-bottom:12px; font-size: 20px; line-height: 30px; letter-spacing: 0px; }
+ .platform-exclusivity-box               { margin-bottom: 12px; }
+ .platform-exclusivity-det               { padding:14px; }
+ .platform-exclusivity-det img           { margin-right: 14px; width:30px; }
+ .platform-left-ball                     { top: -4%; left: -2%; width: 180px; }
+ .platform-right-player                  { right:-2%; width: 80px; }
+ .platform-dotpattern-top                { width: 120px; }
+ .platform-dotpattern-bottom             { width: 120px; }
+ .feature-section.platform-exclusivity-section .platform-exclusivity-det { max-width: 100%;  }
+ /* platform section End */
+ /* Techstack-section Start */
+ .heading-bx                             { padding:16px 19px; display: flex; align-items: center;    }
+ .techstack-wrap h4                      {  font-size: 22px;  line-height: 30px; letter-spacing: 0px; }
+ .heading-bx span                        {  font-size: 40px; line-height: 40px; letter-spacing: 0px; opacity: 0.06; }
+ .techstack-wrap                         { padding-left: 6%; }
+ .techstack-wrap > li                    {  padding-top: 16px; }
+ .techstack-wrap > li:after              {  left:-2.08%; transform: skew(-27deg); width:40px; height:77px;  }
+ .techstack-wrap > li:before             { left:-2.08%; transform: skew(65deg); width: 60%; height:15px;   }
+ .techstack-wrap > li:nth-child(2):before { width:68%; }
+ .techstack-wrap li .techlogos           { padding-right: 16px; }
+ .techstack-wrap li .techlogos  li img { max-height: 49px; max-width: 60px; }
+ .techstack-wrap li .techlogos  li       { max-height:none; height: 77px; padding: 12px 13px; transform: skew(-25deg);   }
+ .techstack-wrap li .techlogos  li div   { transform: skew(25deg); min-width: 70px;  }
+ .techstack-wrap li .techlogos li:before {  width: 2px;  }
+ /* Techstack-section End */
+ 
+ /* tech stack */
+.techstack-wrap > li { display: block; text-align: center; padding-top: 48px; }
+.heading-bx         { margin-inline:120px; text-align: center; display: inline-block; background-color: #fff; padding:9px 24px 8px; border-radius: 50px; position: relative; z-index: 99; }
+.techstack-wrap h4  { font-size:19px; line-height: 20px;  }
+.heading-bx span    { display: none; }
+.techstack-wrap li .techlogos { position: relative;z-index: 5; margin-top: 16px; padding:0; border-radius: 15px; display: inline-flex; }
+.techstack-wrap li .techlogos li div { min-width:auto; max-width: auto; width: 60px; height:60px; transform: none;}
+.techstack-wrap li .techlogos li div img { max-height: 100%; }
+.techstack-wrap li .techlogos li { background-color: #fff; transform: none; padding:15px 13px 13px; height:auto; }
+.techstack-wrap > li:before ,.techstack-wrap > li:after ,.techstack-wrap li .techlogos li:first-child:before{ display: none !important; }
+.techstack-wrap { padding-left: 0; }
+.techstack-wrap li .techlogos:before { content: ""; position: absolute; width: 80%; height: 100%; border: 1px solid #566687; left: 50%; top: -50%; transform: translate(-50% , 4%); }
+}
+@media (max-width:767px){
+    .banner-section .banner-content             { padding: 12px 15px; max-width: 100%; }
+    .banner-detail                              { padding-top: 88px !important; }
+    .thankyou-content                           { padding-top: 112px !important;  }
+    .banner-detail                              { height: auto; min-height: 0; }
+    .banner-images-box                          { padding: 0 15px 0 17px; }
+    .scroll-down { margin-top: 25px !important; }
+    .scroll-down span                           { font-size: 17px; line-height: 25px; }
+    .scroll-down i                              { font-size: 18px;}
+                /* **====----------===== Common Page Css start ====---------========* */
+.common-banner-section                     { padding-top: 128px !important; }
+/* **====----------===== Common Page Css End ====---------========* */
+
+/* Sports Section Start */
+.sports-we-serve .title-box h2 { margin-bottom: 34px; }
+.sport-we-server-det { margin-inline: -10px; }
+.slick-arrow       { top:-26%; width: 21px; height:14px;}
+.slick-prev        { right:53px;  }
+.slick-initialized .slick-slide { padding-top: 22px; padding-inline: 10px;  }
+.sports-box        { padding:0 16px 24px;  border-radius: 20px; }
+.sports-box .img-bx { margin-top: -40px; margin-bottom: 20px; padding:10px 30px; border-radius: 30px;  }
+.sports-box .img-bx img { width: 30px; }
+.sports-box h5     { margin-bottom: 16px;  font-size: 20px;  line-height: 30px; letter-spacing: 0px; } 
+.sports-box p      { font-size: 16px; line-height: 24px; }
+.player-pat-right                           { right: 1%; bottom: 0; width: 90px; }
+/* Sports Section End */
+/* Our Offering section start */
+.offering-details .col-md-4         { padding-block: 15px;  }
+.new-our-offering-section:before     { height: 150px; }
+.title-sec .offer-box                { padding-inline: 20px; padding-block: 20px;align-items: flex-start !important;}
+.offer-box                           { padding-inline: 16px;  border-left: 1px solid #ACAAAA !important;    }
+.offer-box img                       { max-width: 35px; }
+.offer-box h4                        { margin-top:12px; margin-bottom: 11px; font-size: 18px;  line-height: 24px;  letter-spacing: 0px; }
+/* Our Offering section end */
+/* platform section start */
+.platform-exclusivity-section h5        { margin-bottom:10px; font-size: 20px; line-height: 30px; letter-spacing: 0px; }
+.platform-exclusivity-box               { margin-bottom: 10px; }
+.platform-exclusivity-det               { padding:10px; }
+.platform-exclusivity-det img           { margin-right: 10px; width:30px; }
+.platform-left-ball                     { top: -2%; left: -9%; width: 100px; }
+.platform-right-player                  { right:-2%; width: 80px; display: none; }
+.platform-dotpattern-top                { width: 100px; }
+.platform-dotpattern-bottom             { width: 100px; }
+.feature-section.platform-exclusivity-section .platform-exclusivity-det { max-width: 100%;  }
+.feature-section .platform-left-ball    { top: -1.5%; left: -3.3%; }
+/* platform section End */
+
+/* tech stack */
+.techstack-wrap > li { display: block; text-align: center; padding-top: 48px; }
+.heading-bx         { margin-inline:80px; text-align: center; display: inline-block; background-color: #fff; padding:9px 24px 8px; border-radius: 50px; position: relative; z-index: 99; }
+.techstack-wrap h4  { font-size:19px; line-height: 20px;  }
+.heading-bx span    { display: none; }
+.techstack-wrap li .techlogos { position: relative;z-index: 5; margin-top: 16px; padding:0; border-radius: 5px; display: inline-flex; }
+.techstack-wrap li .techlogos li div { min-width:auto; max-width: auto; width: 45px; height:45px; transform: none;}
+.techstack-wrap li .techlogos li div img { max-height: 100%; }
+.techstack-wrap li .techlogos li { background-color: #fff; transform: none; padding:11px 8px 10px; height:70px; }
+.techstack-wrap > li:before ,.techstack-wrap > li:after ,.techstack-wrap li .techlogos li:first-child:before{ display: none !important; }
+.techstack-wrap { padding-left: 0; }
+.techstack-wrap li .techlogos:before { content: ""; position: absolute; width: 80%; height: 100%; border: 1px solid #566687; left: 50%; top: -50%; transform: translate(-50%); }
+}
+@media (max-width:481px){
+    .banner-detail      { height: auto; min-height: initial; }
+     .scroll-down { margin-top:10px !important; margin-bottom: 6px !important;}
+    .scroll-down span                           { font-size: 14px; line-height: 22px; letter-spacing: 1px; }
+    .banner-content .outline-btn a { padding-block: 5px; border-width: 2px !important; }
+    .client-box                             { padding:5px; }
+    .player-pat-right                           { right: 1%; bottom: 0; width:50px; }
+    /* tech stack */
+.techstack-wrap > li { display: block; text-align: center; padding-top: 48px; }
+.heading-bx         { text-align: center; display: inline-block; padding:9px 24px 8px; border-radius: 50px; font-size: 16px; line-height: 20px; }
+.techstack-wrap h4  { font-size:19px; line-height: 20px;  }
+.heading-bx span    { display: none; }
+.techstack-wrap li .techlogos { margin-top: 16px; padding:0; border-radius: 5px; display: inline-flex; }
+.techstack-wrap li .techlogos li div { min-width:auto; max-width: auto; width: 30px; height:30px; transform: none;}
+.techstack-wrap li .techlogos li div img { max-height: 100%; }
+.techstack-wrap li .techlogos li { transform: none; padding:11px 8px 10px; height:50px; }
+.techstack-wrap > li:before ,.techstack-wrap > li:after ,.techstack-wrap li .techlogos li:first-child:before{ display: none !important; }
+.techstack-wrap { padding-left: 0; }
+.techstack-wrap li .techlogos:before { width: 95%; left: 50%; top: -50%; transform: translate(-50% ,-21%); }
+}
+/**************------------------------------------ media Query End  ----------------------------------------***************/
+

@@ -1,0 +1,16 @@
+
+.page-template-contact-us header.site-header { background: #fff; }
+.contact-section { padding: 200px 0px 60px; background: #042365 no-repeat center center / cover; }
+.page-template-contact-us .cta-section { display: none; }
+
+@media(max-width:1399px){
+    .contact-section { padding: 160px 0px 60px; }
+}
+@media(max-width:1199px){
+    .contact-section { padding: 140px 0px 50px; }
+}
+@media(max-width:767px){
+    .contact-section { padding: 120px 0px 40px; } 
+}
+
+

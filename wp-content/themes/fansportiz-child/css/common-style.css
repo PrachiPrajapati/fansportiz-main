@@ -1,0 +1,245 @@
+h1 { font-family: 'Jersey M54' !important; font-weight: 400 !important; letter-spacing: 0 !important;}
+h1 b { color: #C00;font-weight: 400 !important; }
+h2 { font-size: 64px; line-height: 70px; font-weight: 400 !important; letter-spacing: 0 !important;  }
+h4 { font-size: 24px; line-height: 36px; font-weight: 500; }
+p   { color: #3D3D3D; font-family: Inter; font-size: 18px; font-style: normal; font-weight: 500; line-height: 28px;  }
+.overflow-hidden { overflow: hidden !important; }
+.site-main > * { margin:0; }
+.common-padding-small { padding-block: 80px; }
+.common-space-small { padding-block: 48px; }
+.common-banner-bg { background-position: center center; background-size: cover; background-repeat: no-repeat; }
+/* Btn box */
+.outline-btn { margin-bottom: 0 !important; margin-top:0px; }
+.banner-section .outline-btn { margin-top: 40px; }
+.outline-btn a { z-index:1; overflow: hidden; position: relative; margin-right: 0; background-color: transparent !important; border:4px solid var(--primary-color) !important; transition-duration: 0.4s; color:var(--primary-color) !important; text-align: center; }
+.outline-btn a:hover,.outline-btn a:focus { -webkit-box-shadow: 0px 0px 40px 0px rgba(4,35,101,0.5);  -moz-box-shadow: 0px 0px 40px 0px rgba(4,35,101,0.5); box-shadow: 0px 0px 40px 0px rgba(4,35,101,0.5); background-color: var(--primary-color) !important; color:#fff !important; }
+.outline-btn a:hover , .outline-btn a:focus { border-color:var(--primary-color) !important; transform: scale(1); will-change: transform; text-decoration: none; -webkit-box-shadow: 0px 0px 40px 0px rgba(4,35,101,0.5);  -moz-box-shadow: 0px 0px 40px 0px rgba(4,35,101,0.5); box-shadow: 0px 0px 40px 0px rgba(4,35,101,0.5);  color:#fff !important; }
+.outline-btn a:after { content: ''; background-color: var(--primary-color); border-radius: 0; display: block; height: 100%; width: 100%; position: absolute;  left: 0; top: 0; transform: translate(-110%, 0) skew(10deg , 10deg); opacity: 1; transform-origin: top left; transition: 0.2s transform ease-out; will-change: transform; z-index: -1; }
+.outline-btn a:hover:after , .outline-btn a:focus:after { left:0; top:0; transform: none; }
+.navbarbox          { display: flex; align-items: center; }
+.outline-btn a { position: relative; overflow: hidden; margin-right: 14px; padding:22.5px 30px; border:0; background-color: var(--primary-color); font-size: 1.25rem; font-weight: 500; display:inline-flex; align-items: center; justify-content: center; line-height: 27px; border-radius: 4px; color:#fff; text-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); text-decoration: none; }
+.outline-btn.small-btn a { padding: 18px 30px !important; }
+.outline-btn.solid-btn a { background-color: var(--primary-color) !important; border:0 !important; color: #fff !important;  border-color: transparent !important; }
+.outline-btn.solid-btn a:after { background-color: var(--secondary-color);  }
+.outline-btn.solid-btn.white-btn a { background-color: #fff !important; color: var(--primary-color) !important; }
+.outline-btn.solid-btn.white-btn a:hover { color: #fff !important; }
+.outline-btn.solid-btn.red-btn a { background-color:  var(--secondary-color) !important; color: #fff !important; }
+.outline-btn.solid-btn.red-btn a:hover { color: var(--secondary-color) !important; }
+.outline-btn.solid-btn.red-btn a:after { background-color: #fff !important;  }
+/* After btns */
+.pattern-img-box figure        { position: absolute; margin:0 !important; }
+/*------------------ Common Title Box Css Start ----------------------*/
+.title-box ,.thankyou-content .banner-content h1                    { margin-bottom:56px; position: relative; z-index: 20; }
+.title-box  h2 ,.thankyou-content .banner-content h1 { font-family: 'Jersey M54' !important;  font-weight: 400 !important; margin-bottom:33px; padding-bottom:16px; position: relative; }
+.title-box h2:after ,.thankyou-content .banner-content h1:after ,.common-banner-section .banner-desc-common .page-title-box:after           { content:""; position:absolute; top:100%; left:50%; transform: translate(-50%);width:120px; height:4px; background-color: var(--secondary-color); animation: titleborder 0.8s linear; -webkit-animation: titleborder 0.8s linear;  } 
+.left-underline.title-box h2:after { left: 0; transform: none; }
+.title-box p , p.text-big       { font-size: 24px; line-height:36px; color:#3D3D3D; }
+.bg-blue .title-box h2 , .bg-blue .title-box p ,.bg-red .title-box h2 , .bg-red .title-box p { color:#fff; } 
+.bg-red .title-box h2:after  ,.common-banner-section .banner-desc-common .page-title-box:after   { background-color: #fff;  }
+.title-box.white-text-box h2 { color:#fff !important; }
+.title-box.white-text-box p { color:rgba(255,255,255,0.95) !important; }
+/*------------------ Common Title Box Css End ----------------------*/
+.primary-navigation .primary-menu-container > ul > .menu-item > a + .sub-menu-toggle { display: none; }
+.primary-navigation .primary-menu-container > ul > .menu-item.menu-item-has-children > a { padding-right: 20px; background-color: transparent !important; text-decoration: none !important;}
+/* Drop down and dropdown menu arrow css below */
+.primary-navigation .primary-menu-container > ul > .menu-item.menu-item-has-children > a:after  { content: ""; position: absolute; top: 50%; right: 0; height: 13px; width: 15px; background: url(images/down-arrow.svg) no-repeat center right/contain; transition: all 0.3s ease-in-out; transform-origin: center center; transform: translateY(-50%); max-width: calc(100% - 20px); }
+/* .primary-navigation .primary-menu-container > ul > .menu-item.menu-item-has-children.open-sub > a::after { transform: translateY(-50%) rotate(180deg); } */
+.has-background-white .site a:focus:not(.wp-block-button__link):not(.wp-block-file__button) { background: transparent; color: var(--primary-color); text-decoration: none; }
+.primary-navigation > div > .menu-wrapper > li > .sub-menu { top: calc(100% + 32px); border:0; border-top: 2px solid var(--primary-color); background-color: #fff; min-width:200px; }
+.primary-navigation > div > .menu-wrapper > li > .sub-menu:after { display: none; }
+.primary-navigation > div > .menu-wrapper > li > .sub-menu:before { content:''; transform: translateY(-100%);  top:0; left:0; display: block !important; position: absolute; width: 100%; border-color: transparent; background-color: transparent; height: 34px;  }
+.primary-navigation > div > .menu-wrapper > li > .sub-menu li {  background-color: transparent; padding:0;}
+.primary-navigation > div > .menu-wrapper > li > .sub-menu li a { margin-bottom: 0px; position: relative; padding: 15px ; font-family: 'Gilroy'; text-decoration: none !important; font-weight: 400; font-size: 18px; line-height: 28px; color: #302E2E; }
+/* .primary-navigation > div > .menu-wrapper > li > .sub-menu li:last-child a { padding-bottom: 0px; } */
+.primary-navigation > div > .menu-wrapper > li > .sub-menu li a:hover { color:var(--secondary-color); }
+.primary-navigation > div > .menu-wrapper > li > .sub-menu li a:after { content:''; position: absolute; bottom:0; left:0; width:100%; height: 0.5px; background-color: #999999; opacity:0.5; }
+.primary-navigation > div > .menu-wrapper > li > .sub-menu li:last-child a:after { display: none;  } 
+/* Cta Section new */
+.title-bg-text                                  { position:absolute; left:0; top:0; transform: translateY(-17%); color: rgba(255, 255, 255, 0.09); font-family: Inter; font-size: 55.333px; font-style: normal; font-weight: 400; line-height: 89px;  }
+/* Client Section */
+.client-section-content                 { margin:0 -11.5px; display: flex; flex-wrap: wrap;  justify-content: center; }
+.clien-bx-img                           { height: 100%;  display: flex; align-items: center; justify-content: center; text-align: center; padding: 28px;   border: 1px solid #D1D1D1; }
+.clnt-title                             { margin-bottom: 24px; text-align: center; color: #042365;  font-size: 24px; font-style: normal; font-weight: 600; line-height: 36px; /* 150% */ letter-spacing: 0.25px;}
+.client-box                             { padding:0 11.5px; height: 118px; width: calc(100% / 5); }
+.client-box img                         { max-width: 100%; max-height: 100%; }
+.clien-pat-left ,.clien-pat-right       { width: 122px; height:124px; }
+.clien-pat-left                         { left: 0; top:0; }
+.clien-pat-right                        { right: 0; bottom: 0;}
+.clien-pat-right img                    {  transform: scale(-1);}
+.player-pat-right                       { right: 5%; bottom: 0; }
+/* Client Section End */
+/* Faq section start */
+.accordion        { margin-top: 0; }
+.acc-listbox      { margin-bottom: 24px; border-radius: 7px;
+   border: 1px solid #C7C7C7; background: #FFFFFF; box-shadow: 0px 14px 80px rgba(137, 149, 189, 0.1); border-radius: 8px; }
+.acc-listbox > a    {  display: flex; align-items: center; padding:20px 24px; position: relative;   font-size: 20px; line-height: 28px; text-decoration: none;}
+.acc-listbox > a span { width:calc(100% - 50px); display: block; font-weight: 500; font-size: 20px; line-height: 30px; color: #042365; }
+.title-desc       { padding:20px 44px 20px 24px; border-top: 1px solid #C7C7C7;  display: none; }
+.title-desc p     {  color: #707070; font-size: 18px; font-style: normal; font-weight: 500; line-height: 28px; }
+.acc-listbox  a:after { content:''; position: absolute; top:50%; right:24px; width:30px; height:30px; top:50%; background: url('https://www.yudiz.com/wp-content/uploads/2023/02/arrow-accordian.svg')no-repeat center center/cover; transform:  translateY(-50%); transform-origin: center center; transition: all 0.5s ease; }
+.acc-listbox.current a:after           { transform:translateY(-50%) rotate(-180deg) ; }
+.right-queimg-top  { right: 2%; top:0; }
+.left-bottom-img    { left:-1%; bottom:-1%;  }
+/* Faq section End */
+@media (min-width:1221px) and (max-width:1440px){
+    .head-5,
+    h5                                          { font-size: 28px; line-height: 40px; }
+    h2                                          { font-size: 50px; line-height: 60px; letter-spacing: 0 !important;  }
+    .title-box p, p.text-big                    { font-size: 18px; line-height: 30px; }
+    .common-padding-small                       { padding-block: 60px; }
+    .common-space-small                         { padding-block: 38px; }
+    /* Cta Section new */
+    .title-bg-text                                  {  font-size: 37.333px;  line-height: 69px;  }
+    /* Client Section Start */
+    .clnt-title                             { font-size: 18px; line-height: 28px; }
+    .clien-bx-img                           { padding:0px 25px; }
+    .client-box                             {  height: 100px; }
+    .clien-pat-left, .clien-pat-right       { max-width: 6%; height: auto; width: auto; }
+    /* Client Section end */
+    /* Faq section start */
+ .acc-listbox      { margin-bottom: 16px; }
+ .acc-listbox > a    {  padding:12px 16px; font-size: 18px; line-height: 26px; }
+ .acc-listbox > a span { width:calc(100% - 50px);  font-size: 18px; line-height: 28px;  }
+ .title-desc       { padding:16px 40px 16px 20px;  }
+ .title-desc p     {   font-size: 18px;  line-height: 28px; }
+ .acc-listbox  a:after {  top:50%; right:24px; width:30px; height:30px; top:50%; }
+.right-queimg-top  { right: 2%; top:0;  width: 90px;}
+.left-bottom-img    { left:-1%; bottom:-1%;  width: 90px; }
+ /* Faq section End */
+ .primary-navigation > div > .menu-wrapper > li > .sub-menu { padding: 10px 14px 10px;  top: calc(100% + 28px);  }
+ .primary-navigation > div > .menu-wrapper > li > .sub-menu:before {  height: 30px;  }
+ .primary-navigation > div > .menu-wrapper > li > .sub-menu li a { margin-bottom: 10px;  font-size: 18px; line-height: 28px;  }
+ .primary-navigation > div > .menu-wrapper > li > .sub-menu li a:after {  height: 0.5px; }
+}
+@media (min-width:992px) and (max-width:1220px){
+    .common-padding                             { padding: 60px 0; }
+    h1                                          { font-size: 52px; line-height: 60px;  letter-spacing: -2px;  }
+    h2                                          { font-size: 40px; line-height: 52px; letter-spacing: -1px;  }
+    h3                                          { font-size: 44px; line-height: 54px; letter-spacing: -1px; }
+    .head-5,
+    h5                                          { font-size: 23px; line-height: 30px; letter-spacing: -0.5px; }
+    p                                           { font-size: 16px; line-height: 22px;  }
+    .common-space-small                         { padding-block: 32px; }
+    .title-box p, p.text-big                    { font-size: 16px; line-height: 28px;  }
+    .outline-btn a                              { margin-right: 14px; padding: 12px 24px; }
+    .title-box h2                               { margin-bottom: 18px; padding-bottom: 18px; }
+    .title-box h2:after                         { width: 100px; height: 6px; }
+    .common-padding-small                       { padding-block: 50px; }
+     /* Cta Section new */
+    .title-bg-text                              {  font-size: 30px;  line-height: 60px;  }
+    /* Client Section Start */
+    .common-banner-section              { padding-top: 192px !important;  }
+    .clnt-title                             { font-size: 18px; line-height: 28px; }
+    .client-box                             { padding:10px; height: 100px; width: calc(100% / 3); }
+    .clien-pat-left, .clien-pat-right       { max-width: 6%; height: auto; width: auto; } 
+    /* Client Section End */
+    .primary-navigation > div > .menu-wrapper > li > .sub-menu { padding: 8px 12px 8px;  top: calc(100% + 24px);  }
+    .primary-navigation > div > .menu-wrapper > li > .sub-menu:before {  height: 26px;  }
+    .primary-navigation > div > .menu-wrapper > li > .sub-menu li a { margin-bottom: 10px;  font-size: 18px; line-height: 28px;  }
+    /* Faq section start */
+    .acc-listbox      { margin-bottom: 12px; }
+    .acc-listbox > a    {  padding: 12px 12px; font-size: 16px; line-height: 24px; }
+    .acc-listbox > a span { width:calc(100% - 50px);  font-size: 16px; line-height: 24px;  }
+    .title-desc       { padding:14px 30px 14px 15px; }
+    .title-desc p     {   font-size: 16px;  line-height: 24px; }
+    .acc-listbox  a:after {  top:50%; right:24px; width:26px; height:26px; top:50%; }
+    .right-queimg-top  { right: 2%; top:0;  width: 70px;}
+    .left-bottom-img    { left:-1%; bottom:-1%;  width: 70px; }
+    /* Faq section End */
+/* **====----------===== Common Page Css start ====---------========* */
+}
+@media (min-width:768px) and (max-width:991px){
+    .common-padding                             { padding:60px 0; }
+    .common-space-small                         { padding-block: 24px; }
+    h1                                          { font-size: 43px; line-height: 55px;  letter-spacing: -2px;  }
+    h2                                          { font-size: 32px; line-height: 46px; letter-spacing: -1px;  }
+    h3                                          { font-size: 44px; line-height: 54px; letter-spacing: -1px; }
+    h4                                          { font-size: 20px; line-height: 34px; }
+    .head-5,
+    h5                                          { font-size: 23px; line-height: 30px; letter-spacing: -0.5px; }
+    p                                           { font-size: 15px; line-height: 22px;  }
+    .outline-btn.small-btn a                    { padding: 14px 28px !important; }
+    .primary-navigation > div > .menu-wrapper > li > .sub-menu { padding: 8px 12px 8px;  top: calc(100% + 18px);  }
+    .primary-navigation > div > .menu-wrapper > li > .sub-menu:before { height: 24px; }
+    .primary-navigation > div > .menu-wrapper > li > .sub-menu li a { margin-bottom: 10px;  font-size: 16px; line-height: 24px;  }
+    .title-box p, p.text-big                    { font-size: 15px; line-height: 27px;  }
+    .outline-btn a                              { margin-right: 14px; padding: 12px 24px; }
+    .title-box  h2                              { margin-bottom: 18px; padding-bottom: 18px; }
+    .title-box h2:after                         { width: 90px; height: 4px; }
+    .common-padding-small                       { padding-block: 40px; }
+    .title-bg-text                              {  font-size: 24px;  line-height: 40px;  }
+    /* Client Section Css Start */
+    .clnt-title                             { font-size: 18px; line-height: 28px; }
+    .clien-bx-img                           {  padding:0 20px;  }
+    .client-box                             { padding:10px; height: 100px; width: calc(100% / 3); }
+    .clien-pat-left, .clien-pat-right       { max-width: 6%; height: auto; width: auto; } 
+    .banner-content .outline-btn a { padding-block: 5px; border-width: 3px !important; }
+    /*  Client Section Css End */
+    /* Faq section start */
+    .acc-listbox      { margin-bottom: 12px; }
+    .acc-listbox > a    {  padding:8px 12px; font-size: 16px; line-height: 24px; }
+    .acc-listbox > a span { width:calc(100% - 50px);  font-size: 16px; line-height: 24px;  }
+    .title-desc       { padding:14px 30px 14px 15px; }
+    .title-desc p     {   font-size: 16px;  line-height: 24px; }
+    .acc-listbox  a:after {  top:50%; right:24px; width:26px; height:26px; top:50%; }
+    .right-queimg-top  { right: 2%; top:0;  width: 70px;}
+    .left-bottom-img    { left:-1%; bottom:-1%;  width: 70px; }
+    /* Faq section End */
+}
+@media (max-width:767px){
+    .common-padding                             { padding:40px 0; }
+    .common-space-small                         { padding-block: 20px; }
+    h1                                          { font-size: 33px; line-height: 42px;  letter-spacing: -1px;  }
+    h2                                          { font-size: 30px; line-height: 40px; letter-spacing: 0;  }
+    h3                                          { font-size: 30px; line-height: 44px; letter-spacing: -1px; }
+    h4                                          { font-size: 18px; line-height: 30px; }
+    .head-5,
+    h5                                          { font-size: 19px; line-height: 26px; letter-spacing: 0;}
+    p                                           { font-size: 16px; line-height: 24px;  }
+    .title-box p, p.text-big                    { font-size: 15px; line-height: 27px;  }
+    .outline-btn                                { margin-top: 24px; }
+    .outline-btn a                              { font-size: 15px; margin-right: 14px; padding: 7px 16px; }
+    .outline-btn.small-btn a                    { padding-block: 1.328% !important; }
+    .title-box  h2                              { margin-bottom: 24px; padding-bottom: 10px; }
+    .title-box h2:after                         { width: 90px; height: 4px; }
+    .common-padding-small                       { padding-block: 30px; }
+    .title-bg-text                              {  font-size: 22px;  line-height: 38px;  }
+    /* Client Section css Start */
+    .clnt-title                             { font-size: 18px; line-height: 28px; }
+    .clien-bx-img                           { margin: 0; padding:10px;  }
+    .client-box                             { padding:8px; height: 80px;  width: calc(100% / 2); }
+    .clien-pat-left, .clien-pat-right       { max-width: 15%; height: auto; width: auto; } 
+    .banner-content .outline-btn a          { padding-block: 5px; border-width: 2px !important; }
+     /* Client Section css End */
+     /* Faq section start */
+    .acc-listbox      { margin-bottom: 12px; }
+    .acc-listbox > a    {  padding:8px 12px; font-size: 16px; line-height: 24px; }
+    .acc-listbox > a span { width:calc(100% - 35px);  font-size: 16px; line-height: 24px;  }
+    .title-desc       { padding:14px 30px 14px 15px; }
+    .title-desc p     {   font-size: 16px;  line-height: 24px; }
+    .acc-listbox  a:after {  top:50%; right:24px; width:26px; height:26px; top:50%; }
+    .right-queimg-top  { right: 2%; top:0;  width: 70px;}
+    .left-bottom-img    { left:-1%; bottom:-1%;  width: 50px; }
+    /* Faq section End */
+    .primary-navigation > div > .menu-wrapper > li > .sub-menu { padding: 8px 12px 8px;  top: calc(100% + 18px);  }
+    .primary-navigation > div > .menu-wrapper > li > .sub-menu:before { height: 24px; }
+    .primary-navigation > div > .menu-wrapper > li > .sub-menu li a { margin-bottom: 10px;  font-size: 16px; line-height: 24px;  }
+    }
+@media (max-width:481px){
+    .common-padding-small                       { padding-block: 25px; }
+    h1                                          { font-size: 27px; line-height: 35px; letter-spacing: 0; }
+    .outline-btn                               { margin-top: 18px; }
+    .outline-btn a                              { display:inline-flex; margin-left: 0; }
+    .primary-navigation > div > .menu-wrapper > li.open-sub > .sub-menu { padding: 10px 14px 10px; } 
+    .primary-navigation .primary-menu-container > ul > .menu-item.menu-item-has-children.open-sub > a::after { transform: translateY(-50%) rotate(180deg); }
+    .primary-navigation > .primary-menu-container { border:0; }
+    .site-header.has-logo:not(.has-title-and-tagline).has-menu .site-logo { padding-top: 0; }
+    .site-header.has-logo:not(.has-title-and-tagline).has-menu .site-logo ,.menu-button-container ,header.site-header .primary-navigation{ position: unset; }
+    .menu-button-container #primary-mobile-menu  ,.menu-button-container           { padding:0; }
+    .menu-button-container #primary-mobile-menu .dropdown-icon          { font-size: 0; }
+    .primary-navigation > div > .menu-wrapper > li > .sub-menu { top:100%; }
+    .primary-navigation .primary-menu-container > ul > .menu-item { margin: 5px 0px; padding: 0; }
+    .primary-navigation > div > .menu-wrapper > li > .sub-menu li { margin:0; }
+}
+/**************------------------------------------ media Query End  ----------------------------------------***************/
+
